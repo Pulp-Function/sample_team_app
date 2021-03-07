@@ -7,6 +7,9 @@ Rails.application.routes.draw do
     get "/pages" => "pages#index"
 
     get "/tastet" => "tastet#index"
+
+    get "/photos" => "photos#index"
+
     get "/pages/:id" => "pages#show"
   end
 end
